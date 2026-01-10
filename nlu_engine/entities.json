@@ -1,0 +1,44 @@
+{
+  "entities": [
+    {
+      "name": "amount",
+      "description": "Money amount mentioned in the query",
+      "examples": ["5000", "1,000", "20,000", "50.75"]
+    },
+    {
+      "name": "currency",
+      "description": "Currency symbol or name",
+      "examples": ["₹", "Rs", "INR", "$", "USD", "rupees", "dollars"]
+    },
+    {
+      "name": "account_type",
+      "description": "Type of bank account involved in the request",
+      "examples": ["savings", "current", "checking", "salary"]
+    },
+    {
+      "name": "account_number",
+      "description": "Customer bank account number (masked or full)",
+      "examples": ["12345678", "account ending 4321", "a/c 9876543210"]
+    },
+    {
+      "name": "transaction_id",
+      "description": "Transaction or reference ID mentioned by the user",
+      "examples": ["TXN 12345", "UTR ABC123456", "ref 778899"]
+    },
+    {
+      "name": "location",
+      "description": "Location used for ATM / branch search",
+      "examples": ["near me", "Bangalore", "Whitefield", "MG Road", "airport"]
+    },
+    {
+      "name": "card_type",
+      "description": "Type of payment card for block/issue requests",
+      "examples": ["debit card", "credit card", "ATM card", "Visa", "Mastercard"]
+    },
+    {
+      "name": "date",
+      "description": "Specific date or date range if needed later for statements",
+      "examples": ["today", "yesterday", "last week", "on 5th June", "from 1 Jan to 31 Jan"]
+    }
+  ]
+}

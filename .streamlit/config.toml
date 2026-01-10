@@ -1,0 +1,8 @@
+[theme]
+base = "dark"
+
+[ui]
+cssPath = "styles.css"
+
+[server]
+enableCORS = false

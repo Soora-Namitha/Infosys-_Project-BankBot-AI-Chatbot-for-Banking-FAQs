@@ -1,0 +1,42 @@
+{
+  "data": [
+    {
+      "text": "What is my balance?",
+      "label": "check_balance"
+    },
+    {
+      "text": "Show my account balance",
+      "label": "check_balance"
+    },
+    {
+      "text": "How much money do I have?",
+      "label": "check_balance"
+    },
+
+    {
+      "text": "I want to open an account",
+      "label": "open_account"
+    },
+    {
+      "text": "How to open a new bank account?",
+      "label": "open_account"
+    },
+    {
+      "text": "Create a new savings account",
+      "label": "open_account"
+    },
+
+    {
+      "text": "Tell me about loan options",
+      "label": "loan_info"
+    },
+    {
+      "text": "What are the interest rates for loans?",
+      "label": "loan_info"
+    },
+    {
+      "text": "I want to apply for a loan",
+      "label": "loan_info"
+    }
+  ]
+}

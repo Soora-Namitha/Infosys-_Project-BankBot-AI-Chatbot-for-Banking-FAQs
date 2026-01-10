@@ -1,0 +1,121 @@
+{
+  "intents": [
+    {
+      "name": "check_balance",
+      "examples": [
+        "check my balance",
+        "check the balance in account 1234566",
+        "i want to check my balance",
+        "What's my account balance?",
+        "Show my savings balance",
+        "Check balance",
+        "How much money do I have?",
+        "What's in my account?",
+        "Balance enquiry",
+        "My current balance?",
+        "Display account balance",
+        "Account statement",
+        "How much is in my savings?",
+        "Check my checking account",
+        "What's the balance on my account?",
+        "Show balance",
+        "Remaining balance?",
+        "Current account balance",
+        "check balance in 2255",
+        "check balance of aacount 98765",
+        "check balance in account 2255"
+      ]
+    },
+    {
+      "name": "tranfer_money",
+      "examples": [
+        "Transfer 5000 to savings",
+        "Send money to 1234567890",
+        "Transfer \u20b910000 to account 9876543210",
+        "Move 2000 from checking to savings",
+        "Send 500 rupees to my account",
+        "Transfer money to another account",
+        "\u20b93000 to account number 1111222233",
+        "Send 10000 rupees",
+        "Transfer funds to 4567891230",
+        "Move money to savings account",
+        "Send \u20b95000 to account 5556667778",
+        "Transfer 2500 rupees",
+        "\u20b97500 to 9998887776",
+        "Send money to account number 1234",
+        "Transfer 1000 from current to savings",
+        "Move \u20b94000 to checking",
+        "Send 2000 bucks to 7894561230",
+        "Transfer amount to another account",
+        "\u20b915000 transfer to 3216549870",
+        "Send funds to account 6543210987",
+        "Send money to 123456",
+        "Transfer 5000 to savings",
+        "Transfer 10000",
+        "send 550 to 345678",
+        "transfer 100 to 9550378211"
+      ]
+    },
+    {
+      "name": "card_block",
+      "examples": [
+        "Block my debit card",
+        "Block credit card immediately",
+        "I want to block my card",
+        "Card blocked please",
+        "Block my ATM card now",
+        "Stop my debit card",
+        "Deactivate my credit card",
+        "My card is lost, block it",
+        "Block card urgently",
+        "Card block request",
+        "I need to block my card",
+        "Suspend my debit card",
+        "Block my banking card",
+        "Lost my card, block please",
+        "Deactivate ATM card",
+        "Card security block",
+        "Block my Visa card",
+        "Mastercard block now",
+        "Cancel my debit card",
+        "Emergency card block",
+        "Suspend my card",
+        "Block my   card",
+        "Block my card"
+      ]
+    },
+    {
+      "name": "find_atm",
+      "examples": [
+        "Where is ATM near me?",
+        "Nearest ATM location",
+        "ATM locator",
+        "Find ATM nearby",
+        "Show ATMs around",
+        "ATM near my location",
+        "Where's the closest ATM?",
+        "ATM locations near me",
+        "Find nearest cash machine",
+        "ATM in my area",
+        "Show ATM map",
+        "Cashpoint near me",
+        "Where can I withdraw cash?",
+        "ATM address nearby",
+        "Nearest money machine",
+        "ATM search",
+        "Find cash withdrawal point",
+        "ATM locator near current location",
+        "Where is ATM located?",
+        "Show me ATM positions",
+        "find atm near hanamkonda"
+      ]
+    },
+    {
+      "name": "llm",
+      "examples": [
+        "what is deep learning?",
+        "what is a datascientist?"
+      ]
+    }
+  ]
+}
