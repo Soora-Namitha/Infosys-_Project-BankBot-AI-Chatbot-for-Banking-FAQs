@@ -1,1 +1,87 @@
-BankBot AI Chatbot for Banking FAQs
+BankBot AI: Chatbot for Banking FAQs
+[
+[
+[
+[
+[
+
+BankBot AI is an intelligent chatbot developed for the Infosys Springboard Virtual Internship, designed to handle common banking FAQs using advanced NLP and configurable Large Language Models (LLMs). This project demonstrates full-stack development with Streamlit, focusing on NLU, intent recognition, and responsive UI for seamless user interactions.​
+
+Features
+Intent Recognition: Accurately identifies user queries related to accounts, transactions, loans, and cards using NLP techniques.​
+
+Contextual Responses: Generates human-like replies via LLM-based text generation with prompt engineering for precision.​
+
+Interactive UI: Streamlit-powered chat interface with real-time conversation history and responsive design.​
+
+Configurable LLM: Easily switch between transformer-based models like GPT or open-source alternatives.​
+
+Local Data Handling: SQLite database for logging interactions, enabling analysis and model improvements.​
+
+Techniques Used
+Natural Language Processing (NLP)
+Employs tokenization, entity extraction, and intent classification to process banking-specific queries effectively.​
+
+Prompt Engineering
+Crafts optimized prompts for LLMs to ensure relevant, concise responses tailored to banking contexts.​
+
+LLM-based Text Generation
+Leverages transformer architectures for dynamic response generation, supporting fallback to rule-based answers.​
+
+Tech Stack
+Programming Language
+Python 3.8+ for core development and scripting.​
+
+Libraries / Frameworks
+Streamlit: Web-based UI for chatbot deployment.
+
+Transformers (Hugging Face): LLM integration and fine-tuning.
+
+SQLite: Lightweight database for session management.
+
+AI / ML Technologies
+NLP: spaCy or NLTK for preprocessing.
+
+Transformers: BERT/GPT variants for NLU and generation.​
+
+LLM Details
+Utilizes configurable transformer-based LLMs (e.g., GPT-2, DistilBERT) via Hugging Face; users can specify models in config for flexibility across local or cloud setups.​
+
+Project Structure
+text
+.
+├── app.py               # Main Streamlit application
+├── config.py            # LLM and database configurations
+├── nlu/                 # Intent recognition models
+│   ├── intents.json     # Training data for banking FAQs
+│   └── processor.py     # NLP pipeline
+├── llm/                 # Prompt templates and generation logic
+├── database.db          # SQLite conversation logs
+├── requirements.txt     # Dependencies
+└── README.md
+Installation Steps
+Clone the repository: git clone https://github.com/Soora-Namitha/Infosys-_Project-BankBot-AI-Chatbot-for-Banking-FAQs.git
+
+Navigate to project: cd Infosys-_Project-BankBot-AI-Chatbot-for-Banking-FAQs
+
+Create virtual environment: python -m venv venv
+
+Activate: venv\Scripts\activate (Windows) or source venv/bin/activate (Unix)
+
+Install dependencies: pip install -r requirements.txt​
+
+How to Run Locally
+Update config.py with preferred LLM model (e.g., "gpt2").
+
+Run: streamlit run app.py
+
+Open http://localhost:8501 in browser to start chatting.​
+
+Test queries like "Check my balance" or "Loan eligibility".​
+
+Certification Use Case
+This project fulfills Infosys Springboard Virtual Internship Milestone 4: Complete Banking Chatbot implementation, showcasing AI/NLP skills for portfolio and certification submission. Deploy locally or on Streamlit Cloud for demo videos and LinkedIn showcases.​​
+
+License
+MIT License - Free to use, modify, and distribute for educational and non-commercial purposes.​
+
